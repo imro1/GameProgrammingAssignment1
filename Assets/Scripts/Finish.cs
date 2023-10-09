@@ -10,7 +10,7 @@ public class Goal : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             GameManager.Instance.PowerUpOff();
-            GameManager.Instance.LevelCompleted();
+            GameManager.Instance.Finish();
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }

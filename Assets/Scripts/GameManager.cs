@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour
         NbOfPU += 1;
     }
 
-    public void LevelCompleted()
+    public void Finish()
     {
         CurrentScore = Score;
         CurrentNbOfPU = NbOfPU;

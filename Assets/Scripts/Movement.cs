@@ -15,7 +15,6 @@ public class Movement : MonoBehaviour
     private Vector3 move;
     private Vector3 playerVelocity;
     private bool isGrounded;
-    private bool canJump = true;
     private bool doubleJump = false;
     private bool doubleJumpUsed = false; 
 
@@ -47,7 +46,7 @@ public class Movement : MonoBehaviour
 
         if (isGrounded)
         {
-            canJump = true;
+            
             doubleJumpUsed = false; 
         }
     }
@@ -71,6 +70,7 @@ public class Movement : MonoBehaviour
     {
         if (isGrounded)
         {
+            doubleJumpUsed = false; 
             animator.SetBool("isGrounded", true);
             animator.SetBool("DoubleJump", false);
             playerVelocity.y = -1.0f;
@@ -95,6 +95,7 @@ public class Movement : MonoBehaviour
 
         controller.Move(move * Time.deltaTime * GetMovementSpeed() + playerVelocity * Time.deltaTime);
     }
+
 
     private void UpdateAnimator()
     {

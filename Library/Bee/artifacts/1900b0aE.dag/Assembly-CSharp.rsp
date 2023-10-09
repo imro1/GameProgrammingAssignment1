@@ -359,7 +359,7 @@
 "Assets/Scripts/EndMenuManager.cs"
 "Assets/Scripts/Finish.cs"
 "Assets/Scripts/GameManager.cs"
-"Assets/Scripts/MenuManager.cs"
+"Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/Movement.cs"
 "Assets/Scripts/PowerUp.cs"
 "Assets/Scripts/PUcount.cs"

@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class EndMenuManager : MonoBehaviour
+public class EndMenu : MonoBehaviour
 {
-    public void OnRestartGame()
+    public void Restart()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadSceneAsync(1);
     }
 
-    public void OnGameStop()
+    public void Exit()
     {
         Application.Quit();
     }
