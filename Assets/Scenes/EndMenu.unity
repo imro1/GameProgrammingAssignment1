@@ -436,8 +436,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1878142242}
-        m_TargetAssemblyTypeName: EndMenu, Assembly-CSharp
+      - m_Target: {fileID: 1878142243}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
         m_MethodName: Exit
         m_Mode: 1
         m_Arguments:
@@ -810,8 +810,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1878142242}
-        m_TargetAssemblyTypeName: EndMenu, Assembly-CSharp
+      - m_Target: {fileID: 1878142243}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
         m_MethodName: Restart
         m_Mode: 1
         m_Arguments:
@@ -976,6 +976,7 @@ GameObject:
   - component: {fileID: 1878142240}
   - component: {fileID: 1878142239}
   - component: {fileID: 1878142242}
+  - component: {fileID: 1878142243}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1067,6 +1068,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 79ee0133718281e4caff3f75e8497d95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1878142243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878142238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb62249848d210b4290ab7493b2ed488, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
